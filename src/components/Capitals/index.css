@@ -1,0 +1,70 @@
+/* Write your CSS here */
+.app-container {
+  background-color: #93c5fd;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.country-capital-container {
+  background-color: #f8fafc;
+  border-radius: 16px;
+  padding: 60px;
+}
+.heading {
+  color: #000000;
+  font-size: 35px;
+  font-family: 'Roboto';
+}
+.select-container {
+  font-size: 20px;
+  padding: 5px;
+  font-family: 'Roboto';
+  color: #323f4b;
+  width: 150px;
+}
+.container {
+  display: flex;
+  margin-bottom: 20px;
+}
+.paragraph {
+  color: #1e293b;
+  font-size: 19px;
+  font-family: 'Roboto';
+  margin-left: 23px;
+}
+.country {
+  color: #000000;
+  font-size: 35px;
+  font-family: 'Roboto';
+}
+.option {
+  color: #323f4b;
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: 500;
+}
+@media screen and (max-width: 768px) {
+  .country-capital-container {
+    width: 80%;
+    padding: 20px;
+  }
+  .heading {
+    font-size: 28px;
+  }
+  .select-container {
+    font-size: 14px;
+    width: 120px;
+  }
+  .paragraph {
+    font-size: 14px;
+    margin-left: 19px;
+  }
+  .option {
+    font-size: 15px;
+    font-weight: 400;
+  }
+  .country {
+    font-size: 26px;
+  }
+}
